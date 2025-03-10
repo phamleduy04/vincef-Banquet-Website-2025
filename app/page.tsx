@@ -15,7 +15,7 @@ export default function Home() {
       <div className="min-h-screen w-full bg-black/40">
 
       {/* First image: 75% width, centered, below tabs */}
-      <div className="mx-auto mt-[-20px] w-[65%] px-4">
+      <div className="mx-auto mt-[-8px] w-[65%] px-4">
         <div className="relative w-full">
           <Image
             src="/landing-page/landing-page-moonlit.png?height=600&width=1400"
