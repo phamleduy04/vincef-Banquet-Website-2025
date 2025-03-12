@@ -11,17 +11,17 @@ export default function SeatPage() {
         backgroundAttachment: "fixed",
       }}
     >
-      <div className="min-h-screen w-full bg-black/40">
+      <div className="min-h-screen w-full">
         <div className="container mx-auto px-4 pt-20">
           <div className="grid grid-cols-1 items-center gap-8 py-12 md:grid-cols-4 md:py-24">
             {/* Text section - 25% width */}
             <div className="space-y-4 rounded-lg md:order-first">
-              <h1 className="text-4xl font-bold tracking-tight text-white md:text-4xl">SEATING MAP</h1>
+              <h1 className="text-4xl font-bold tracking-tight text-black md:text-4xl">SEATING MAP</h1>
             </div>
 
             {/* Image section - 75% width */}
             <div className="relative aspect-[16/9] h-full w-full overflow-hidden rounded-lg bg-black/20 backdrop-blur-sm md:col-span-3 md:order-last">
-              <Image src="/placeholder.svg?height=600&width=1200" alt="Seating Chart" fill className="object-cover" />
+              <Image src="/coming-soon-rectangle.png?height=600&width=1200" alt="Seating Chart" fill className="object-cover" />
             </div>
           </div>
         </div>

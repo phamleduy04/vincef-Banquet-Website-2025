@@ -18,10 +18,10 @@ export default function Navigation() {
   ]
 
   return (
-    <nav className="fixed top-0 z-50 w-full bg-black/50 backdrop-blur-sm">
+    <nav className="fixed top-0 z-50 w-full">
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-center">
-          <ul className="flex space-x-1 rounded-md bg-black/20 p-1 md:space-x-2">
+          <ul className="flex space-x-1 rounded-md p-1 md:space-x-2">
             {navItems.map((item) => (
               <li key={item.path}>
                 <Link

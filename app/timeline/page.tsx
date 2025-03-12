@@ -26,27 +26,100 @@ export default function TimelinePage() {
       description:
         "TBD",
     },
+    {
+      title: "TBD",
+      time: "TBD",
+      description:
+        "TBD",
+    },
+    {
+      title: "TBD",
+      time: "TBD",
+      description:
+        "TBD",
+    },
+    {
+      title: "TBD",
+      time: "TBD",
+      description:
+        "TBD",
+    },
+    {
+      title: "TBD",
+      time: "TBD",
+      description:
+        "TBD",
+    },
+    {
+      title: "TBD",
+      time: "TBD",
+      description:
+        "TBD",
+    },
+    {
+      title: "TBD",
+      time: "TBD",
+      description:
+        "TBD",
+    },
+    {
+      title: "TBD",
+      time: "TBD",
+      description:
+        "TBD",
+    },
+    {
+      title: "TBD",
+      time: "TBD",
+      description:
+        "TBD",
+    },
+    {
+      title: "TBD",
+      time: "TBD",
+      description:
+        "TBD",
+    },
+    {
+      title: "TBD",
+      time: "TBD",
+      description:
+        "TBD",
+    },
+    {
+      title: "TBD",
+      time: "TBD",
+      description:
+        "TBD",
+    },
   ]
 
   return (
     <div
-      className="min-h-screen w-full"
+      className="w-full"
       style={{
-        backgroundImage: "url('/timeline/timeline-background.png?height=1080&width=1920&text=SeatBackground')",
+        backgroundImage: "url('/timeline/timeline-background.png?height=1080&width=1920&text=TimelineBackground')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundAttachment: "fixed",
       }}
     >
-      <div className="min-h-screen w-full bg-black/40">
-        <div className="container mx-auto px-4 pt-[-20px]">
-          <div className="grid grid-cols-1 gap-8 py-12 md:grid-cols-2 md:py-24">
-            <div className="relative aspect-[3/4] h-full w-full overflow-hidden rounded-lg bg-black/20 backdrop-blur-sm md:sticky md:top-24 md:h-[calc(100vh-6rem)]">
-              <Image src="/intro/banquet-picture.jpg?height=900&width=600" alt="Timeline" fill className="object-cover" />
+      <div className="w-full">
+        <div className="container mx-auto px-4 pt-20">
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
+            <div className="relative h-full w-full overflow-hidden rounded-lg md:sticky md:top-24 md:h-[calc(100vh-6rem)]">
+              <Image
+                src="/timeline/timeline-moon.png?height=900&width=600"
+                alt="Timeline"
+                className="h-full w-full object-contain"
+                width={600}
+                height={900}
+                priority
+              />
             </div>
             <div className="space-y-8 rounded-lg bg-black/20 p-6 backdrop-blur-sm">
               <h1 className="text-3xl font-bold tracking-tight text-white md:text-4xl">Event Timeline</h1>
-              <div className="space-y-8">
+              <div className="space-y-8 pb-8">
                 {timelineEvents.map((event, index) => (
                   <div key={index} className="relative border-l border-white/30 pl-6">
                     <div className="absolute -left-1.5 h-3 w-3 rounded-full bg-primary"></div>

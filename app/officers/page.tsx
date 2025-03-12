@@ -54,7 +54,7 @@ export default function OfficersPage() {
         backgroundAttachment: "fixed",
       }}
     >
-      <div className="min-h-screen w-full bg-black/40">
+      <div className="min-h-screen w-full">
         <div className="container mx-auto px-4 pt-20">
           <h1 className="mb-8 text-center text-3xl font-bold tracking-tight text-white md:text-4xl">Our Officers</h1>
           <div className="grid grid-cols-1 gap-6 py-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:gap-8">

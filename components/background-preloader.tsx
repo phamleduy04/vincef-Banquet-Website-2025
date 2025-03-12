@@ -3,14 +3,14 @@
 import { useEffect } from "react"
 
 const backgrounds = [
-  "/placeholder.svg?height=1080&width=1920&text=LandingBackground",
-  "/placeholder.svg?height=1080&width=1920&text=IntroBackground",
-  "/placeholder.svg?height=1080&width=1920&text=SeatBackground",
-  "/placeholder.svg?height=1080&width=1920&text=FormsBackground",
-  "/placeholder.svg?height=1080&width=1920&text=DressCodeBackground",
-  "/placeholder.svg?height=1080&width=1920&text=TimelineBackground",
-  "/placeholder.svg?height=1080&width=1920&text=DonationBackground",
-  "/placeholder.svg?height=1080&width=1920&text=OfficersBackground",
+  "/landing-page/landing-page-background.png?height=1080&width=1920&text=LandingBackground",
+  "/intro/intro-background.png?height=1080&width=1920&text=IntroBackground",
+  "/seating/seating-background.png?height=1080&width=1920&text=SeatBackground",
+  "/forms/forms-background.png?height=1080&width=1920&text=FormsBackground",
+  "/dress-code/dress-code-background.png?height=1080&width=1920&text=DressCodeBackground",
+  "/timeline/timeline-background.png?height=1080&width=1920&text=TimelineBackground",
+  "/donation/donation-background.png?height=1080&width=1920&text=DonationBackground",
+  "/officers/officers-background.png?height=1080&width=1920&text=OfficersBackground",
 ]
 
 export default function BackgroundPreloader() {

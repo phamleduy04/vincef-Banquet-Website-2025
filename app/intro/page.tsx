@@ -11,7 +11,7 @@ export default function IntroPage() {
         backgroundAttachment: "fixed",
       }}
     >
-      <div className="min-h-screen w-full bg-black/40">
+      <div className="min-h-screen w-full">
         <div className="container mx-auto px-4 pt-20">
           <div className="grid grid-cols-1 items-center gap-8 py-12 md:grid-cols-2 md:py-24">
             <div className="relative aspect-video h-full w-full overflow-hidden rounded-lg bg-black/20 backdrop-blur-sm md:aspect-square">
@@ -20,13 +20,10 @@ export default function IntroPage() {
             <div className="space-y-4 rounded-lg bg-black/20 p-6 backdrop-blur-sm">
               <h1 className="text-3xl font-bold tracking-tight text-white md:text-4xl">What is VINCEF Banquet?</h1>
               <p className="text-white/80">
-                TBD
+                The VINCEF Banquet at UT Dallas is a special annual event that brings together students, alumni, and sponsors to celebrate Vietnamese culture, achievements, and community engagement. The event aims to foster connections among current and former members, recognize outstanding contributions, and strengthen ties with sponsors who support the organization’s initiatives.
               </p>
               <p className="text-white/80">
-                TBD
-              </p>
-              <p className="text-white/80">
-                TBD
+                This year's VINCEF Banquet is a Harry Potter-themed event: Moonlit Feast. Join us for a magical evening filled with wonder and enchantment!
               </p>
             </div>
           </div>

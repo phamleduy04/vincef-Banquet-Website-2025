@@ -5,26 +5,26 @@ export default function FormsPage() {
   const forms = [
     {
       title: "GRADUATION FAREWELL",
-      description: "Let us know if you graduated in Fall 2024 or are about to graduate in Spring 2025!",
-      image: "/placeholder.svg?height=300&width=300",
+      description: "Let us know if you graduated in Summer 2024, Fall 2024, or are about to graduate in Spring 2025!",
+      image: "/forms/graduation-farewell.png?height=300&width=300",
       url: "https://forms.gle/XGcU8ws9nwr385d47",
     },
     {
       title: "To be announced",
       description: "Stay tuned in to VINCEF's social media to get newest updates on Moonlit Feast!",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/coming-soon-square.png?height=300&width=300",
       url: "/",
     },
     {
       title: "To be announced",
       description: "Stay tuned in to VINCEF's social media to get newest updates on Moonlit Feast!",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/coming-soon-square.png?height=300&width=300",
       url: "/",
     },
     {
       title: "To be announced",
       description: "Stay tuned in to VINCEF's social media to get newest updates on Moonlit Feast!",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/coming-soon-square.png?height=300&width=300",
       url: "/",
     },
   ]
@@ -39,12 +39,12 @@ export default function FormsPage() {
         backgroundAttachment: "fixed",
       }}
     >
-      <div className="min-h-screen w-full bg-black/40">
+      <div className="min-h-screen w-full">
         <div className="container mx-auto px-4 pt-20">
           <h1 className="mb-8 text-center text-3xl font-bold tracking-tight text-white md:text-4xl">Forms</h1>
           <div className="grid grid-cols-1 gap-8 py-8 md:grid-cols-2 lg:gap-12">
             {forms.map((form, index) => (
-              <div key={index} className="flex overflow-hidden rounded-lg bg-black/30 shadow-lg backdrop-blur-sm">
+              <div key={index} className="flex overflow-hidden rounded-lg shadow-lg">
                 <div className="relative h-auto w-2/5">
                   <Image
                     src={form.image || "/placeholder.svg"}

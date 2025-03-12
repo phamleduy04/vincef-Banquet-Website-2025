@@ -11,7 +11,7 @@ export default function DonationPage() {
         backgroundAttachment: "fixed",
       }}
     >
-      <div className="min-h-screen w-full bg-black/40">
+      <div className="min-h-screen w-full">
         <div className="container mx-auto px-4 pt-20">
           <div className="grid grid-cols-1 items-center gap-8 py-12 md:grid-cols-2 md:py-24">
             <div className="relative aspect-video h-full w-full overflow-hidden rounded-lg bg-black/20 backdrop-blur-sm md:aspect-square">
