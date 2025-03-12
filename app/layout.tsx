@@ -3,6 +3,7 @@ import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
 import Navigation from "@/components/navigation"
+import BackgroundPreloader from "@/components/background-preloader"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -19,10 +20,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+        <BackgroundPreloader />
         <Navigation />
         <main>{children}</main>
       </body>
     </html>
   )
 }
-

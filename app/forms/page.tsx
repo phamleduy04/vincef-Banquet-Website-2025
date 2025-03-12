@@ -4,28 +4,28 @@ import Link from "next/link"
 export default function FormsPage() {
   const forms = [
     {
-      title: "VINCEF CHOICE AWARDS",
-      description: "TBD",
-      image: "/placeholder.svg?height=300&width=300",
-      url: "https://forms.google.com/",
-    },
-    {
-      title: "CONFESSION BOX",
-      description: "TBD",
-      image: "/placeholder.svg?height=300&width=300",
-      url: "https://forms.google.com/",
-    },
-    {
       title: "GRADUATION FAREWELL",
-      description: "TBD",
+      description: "Let us know if you graduated in Fall 2024 or are about to graduate in Spring 2025!",
       image: "/placeholder.svg?height=300&width=300",
-      url: "https://forms.google.com/",
+      url: "https://forms.gle/XGcU8ws9nwr385d47",
     },
     {
-      title: "OFFICER RECRUIT",
-      description: "TBD",
+      title: "To be announced",
+      description: "Stay tuned in to VINCEF's social media to get newest updates on Moonlit Feast!",
       image: "/placeholder.svg?height=300&width=300",
-      url: "https://forms.google.com/",
+      url: "/",
+    },
+    {
+      title: "To be announced",
+      description: "Stay tuned in to VINCEF's social media to get newest updates on Moonlit Feast!",
+      image: "/placeholder.svg?height=300&width=300",
+      url: "/",
+    },
+    {
+      title: "To be announced",
+      description: "Stay tuned in to VINCEF's social media to get newest updates on Moonlit Feast!",
+      image: "/placeholder.svg?height=300&width=300",
+      url: "/",
     },
   ]
 

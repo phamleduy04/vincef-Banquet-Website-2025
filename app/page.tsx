@@ -5,14 +5,14 @@ export default function Home() {
     <div
       className="relative min-h-screen w-full pt-16"
       style={{
-        backgroundImage: "url('/landing-page/landing-page-background.png?height=1080&width=1920')",
+        backgroundImage: "url('/landing-page/landing-page-background.png?height=1080&width=1920&text=LandingBackground')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundAttachment: "fixed",
       }}
     >
       {/* Landing page specific background */}
-      <div className="min-h-screen w-full bg-black/40">
+      <div className="min-h-screen w-full">
 
       {/* First image: 75% width, centered, below tabs */}
       <div className="mx-auto mt-[-8px] w-[65%] px-4">

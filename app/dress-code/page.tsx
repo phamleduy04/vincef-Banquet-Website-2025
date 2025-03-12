@@ -29,7 +29,7 @@ export default function DressCodePage() {
                 </p>
                 <div className="pt-4">
                   <Link
-                    href="https://forms.google.com/"
+                    href="https://forms.gle/yTVv8tJM9PCexhBQA"
                     target="_blank"
                     className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-6 py-2 text-sm font-medium text-primary-foreground shadow hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
                   >

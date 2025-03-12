@@ -39,10 +39,10 @@ export default function TimelinePage() {
       }}
     >
       <div className="min-h-screen w-full bg-black/40">
-        <div className="container mx-auto px-4 pt-20">
+        <div className="container mx-auto px-4 pt-[-20px]">
           <div className="grid grid-cols-1 gap-8 py-12 md:grid-cols-2 md:py-24">
             <div className="relative aspect-[3/4] h-full w-full overflow-hidden rounded-lg bg-black/20 backdrop-blur-sm md:sticky md:top-24 md:h-[calc(100vh-6rem)]">
-              <Image src="/placeholder.svg?height=900&width=600" alt="Timeline" fill className="object-cover" />
+              <Image src="/intro/banquet-picture.jpg?height=900&width=600" alt="Timeline" fill className="object-cover" />
             </div>
             <div className="space-y-8 rounded-lg bg-black/20 p-6 backdrop-blur-sm">
               <h1 className="text-3xl font-bold tracking-tight text-white md:text-4xl">Event Timeline</h1>
