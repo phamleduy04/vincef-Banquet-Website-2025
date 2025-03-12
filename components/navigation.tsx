@@ -13,7 +13,7 @@ export default function Navigation() {
     { name: "FORMS", path: "/forms" },
     { name: "DRESS CODE", path: "/dress-code" },
     { name: "TIMELINE", path: "/timeline" },
-    { name: "DONATION", path: "/donation" },
+    // { name: "DONATION", path: "/donation" },
     { name: "OFFICERS", path: "/officers" },
   ]
 

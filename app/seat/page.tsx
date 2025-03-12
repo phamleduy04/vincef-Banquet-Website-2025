@@ -16,7 +16,7 @@ export default function SeatPage() {
           <div className="grid grid-cols-1 items-center gap-8 py-12 md:grid-cols-4 md:py-24">
             {/* Text section - 25% width */}
             <div className="space-y-4 rounded-lg md:order-first">
-              <h1 className="text-4xl font-bold tracking-tight text-black md:text-4xl">SEATING MAP</h1>
+              <h1 className="text-6xl font-bold tracking-tight text-black md:text-6xl">SEATING MAP</h1>
             </div>
 
             {/* Image section - 75% width */}

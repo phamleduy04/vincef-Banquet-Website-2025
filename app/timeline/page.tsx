@@ -6,91 +6,19 @@ export default function TimelinePage() {
       title: "Check-in",
       time: "5:00 PM",
       description:
-        "Check in check ủng",
+        "We will start letting our guests inside at 5PM!",
     },
     {
       title: "TBD",
       time: "TBD",
       description:
-        "TBD",
+        "Stay tuned in to VINCEF's social media for newest updates on Moonlit Feast's timeline!",
     },
     {
-      title: "TBD",
-      time: "TBD",
+      title: "Check-out",
+      time: "10:00PM",
       description:
-        "TBD",
-    },
-    {
-      title: "TBD",
-      time: "TBD",
-      description:
-        "TBD",
-    },
-    {
-      title: "TBD",
-      time: "TBD",
-      description:
-        "TBD",
-    },
-    {
-      title: "TBD",
-      time: "TBD",
-      description:
-        "TBD",
-    },
-    {
-      title: "TBD",
-      time: "TBD",
-      description:
-        "TBD",
-    },
-    {
-      title: "TBD",
-      time: "TBD",
-      description:
-        "TBD",
-    },
-    {
-      title: "TBD",
-      time: "TBD",
-      description:
-        "TBD",
-    },
-    {
-      title: "TBD",
-      time: "TBD",
-      description:
-        "TBD",
-    },
-    {
-      title: "TBD",
-      time: "TBD",
-      description:
-        "TBD",
-    },
-    {
-      title: "TBD",
-      time: "TBD",
-      description:
-        "TBD",
-    },
-    {
-      title: "TBD",
-      time: "TBD",
-      description:
-        "TBD",
-    },
-    {
-      title: "TBD",
-      time: "TBD",
-      description:
-        "TBD",
-    },
-    {
-      title: "TBD",
-      time: "TBD",
-      description:
-        "TBD",
+        "All good things must come to an end. Moonlit Feast will end at 10PM 😭.",
     },
   ]
 

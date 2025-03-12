@@ -1,9 +1,11 @@
 import Image from "next/image"
+import Link from "next/link"
+import { Facebook, Instagram, DiscIcon as Discord } from "lucide-react"
 
 export default function Home() {
   return (
     <div
-      className="relative min-h-screen w-full pt-16"
+      className="w-full pt-16"
       style={{
         backgroundImage: "url('/landing-page/landing-page-background.png?height=1080&width=1920&text=LandingBackground')",
         backgroundSize: "cover",
@@ -12,7 +14,7 @@ export default function Home() {
       }}
     >
       {/* Landing page specific background */}
-      <div className="min-h-screen w-full">
+      <div className="w-full">
 
       {/* First image: 75% width, centered, below tabs */}
       <div className="mx-auto mt-[-8px] w-[65%] px-4">
@@ -80,7 +82,7 @@ export default function Home() {
       </div>
 
       {/* Sixth image: 30% width, centered, below fifth image */}
-      <div className="relative mx-auto mt-[-24px] w-[35%] px-4 pb-16">
+      <div className="relative mx-auto mt-[-24px] w-[35%] px-4">
         <div className="relative w-full">
           <Image
             src="/landing-page/landing-page-logo.png?height=400&width=600"
@@ -90,6 +92,36 @@ export default function Home() {
             className="h-auto w-full rounded-lg"
           />
         </div>
+      </div>
+      {/* Social Media Icons */}
+      <div className="flex justify-center space-x-6 py-2">
+        <Link
+          href="https://www.facebook.com/groups/100188533467103"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white hover:text-primary transition-colors"
+        >
+          <Facebook size={28} />
+          <span className="sr-only">Facebook</span>
+        </Link>
+        <Link
+          href="https://www.instagram.com/vincefutd/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white hover:text-primary transition-colors"
+        >
+          <Instagram size={28} />
+          <span className="sr-only">Instagram</span>
+        </Link>
+        <Link
+          href="https://s.vincef.org/chat"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white hover:text-primary transition-colors"
+        >
+          <Discord size={28} />
+          <span className="sr-only">Discord</span>
+        </Link>
       </div>
     </div>
   </div>
