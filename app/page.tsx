@@ -44,7 +44,7 @@ export default function Home() {
       </div>
 
       {/* Third and fourth images: 20% width each, 15% from borders, below second image */}
-      <div className="relative mx-auto flex justify-between mt-[-80px] z-10 px-[15%]">
+      <div className="relative mx-auto flex justify-between mt-[-10vh] z-10 px-[15%]">
         {/* Third image: left side */}
         <div className="relative w-[30%]">
           <Image
@@ -69,7 +69,7 @@ export default function Home() {
       </div>
 
       {/* Fifth image: 30% width, centered, below third and fourth images */}
-      <div className="relative mx-auto mt-[-18px] w-[35%] px-4 z-10">
+      <div className="relative mx-auto mt-[-2vh] w-[35%] px-4 z-10">
         <div className="relative w-full">
           <Image
             src="/landing-page/landing-page-location.png?height=400&width=600"
@@ -82,7 +82,7 @@ export default function Home() {
       </div>
 
       {/* Sixth image: 30% width, centered, below fifth image */}
-      <div className="relative mx-auto mt-[-24px] w-[35%] px-4">
+      <div className="relative mx-auto mt-[-2vh] w-[35%] px-4">
         <div className="relative w-full">
           <Image
             src="/landing-page/landing-page-logo.png?height=400&width=600"
@@ -101,7 +101,7 @@ export default function Home() {
           rel="noopener noreferrer"
           className="text-white hover:text-primary transition-colors"
         >
-          <Facebook size={28} />
+          <Facebook size={30} />
           <span className="sr-only">Facebook</span>
         </Link>
         <Link
@@ -110,7 +110,7 @@ export default function Home() {
           rel="noopener noreferrer"
           className="text-white hover:text-primary transition-colors"
         >
-          <Instagram size={28} />
+          <Instagram size={30} />
           <span className="sr-only">Instagram</span>
         </Link>
         <Link
@@ -119,7 +119,7 @@ export default function Home() {
           rel="noopener noreferrer"
           className="text-white hover:text-primary transition-colors"
         >
-          <Discord size={28} />
+          <Discord size={30} />
           <span className="sr-only">Discord</span>
         </Link>
       </div>

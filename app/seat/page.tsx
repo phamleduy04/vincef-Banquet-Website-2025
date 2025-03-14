@@ -3,7 +3,7 @@ import Image from "next/image"
 export default function SeatPage() {
   return (
     <div
-      className="min-h-screen w-full"
+      className="w-full"
       style={{
         backgroundImage: "url('/seating/seating-background.png?height=1080&width=1920&text=SeatBackground')",
         backgroundSize: "cover",
@@ -11,17 +11,24 @@ export default function SeatPage() {
         backgroundAttachment: "fixed",
       }}
     >
-      <div className="min-h-screen w-full">
-        <div className="container mx-auto px-4 pt-20">
-          <div className="grid grid-cols-1 items-center gap-8 py-12 md:grid-cols-4 md:py-24">
-            {/* Text section - 25% width */}
-            <div className="space-y-4 rounded-lg md:order-first">
-              <h1 className="text-6xl font-bold tracking-tight text-black md:text-6xl">SEATING MAP</h1>
+      <div className="w-full">
+        <div className="container mx-auto px-4 pt-20 pb-10">
+          <div className="flex flex-col gap-8">
+            {/* Text section - now at the top, full width */}
+            <div className="space-y-4 rounded-lg p-6 text-center">
+              <h1 className="text-3xl font-bold tracking-tight text-white md:text-4xl lg:text-5xl">SEATING MAP</h1>
             </div>
 
-            {/* Image section - 75% width */}
-            <div className="relative aspect-[16/9] h-full w-full overflow-hidden rounded-lg bg-black/20 backdrop-blur-sm md:col-span-3 md:order-last">
-              <Image src="/coming-soon-rectangle.png?height=600&width=1200" alt="Seating Chart" fill className="object-cover" />
+            {/* Image section - now below text, full width */}
+            <div className="mx-auto w-full max-w-5xl">
+              <div className="relative aspect-[16/9] w-full overflow-hidden rounded-lg bg-black/20 backdrop-blur-sm">
+                <Image
+                  src="/coming-soon-rectangle.png?height=600&width=1200"
+                  alt="Seating Chart"
+                  fill
+                  className="object-contain"
+                />
+              </div>
             </div>
           </div>
         </div>

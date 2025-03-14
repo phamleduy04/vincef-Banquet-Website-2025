@@ -53,46 +53,48 @@ export default function DressCodePage() {
               </div>
 
               <h1 className="text-4xl font-bold tracking-tight text-white md:text-5xl lg:text-6xl">DRESS CODE</h1>
-              <p className="text-xl text-white/80">
+              <p className="text-lg text-white/80">
                 Step into the magical world of Vincef Banquet, where every table embodies the vibrant spirit of the four legendary Hogwarts houses! Which house will you represent?
               </p>
-              <p className="text-xl text-white/80">
+              <p className="text-lg text-white/80">
                 Complete the Sorting Survey below to discover your house and dress code color! Your house result will be sent back within 48 hours.
               </p>
-              <p className="text-xl text-white/80">
+              <p className="text-lg text-white/80">
                 If the survey isn’t completed by April 5, you’ll be sorted into a random house. Prefer VINCEF to select your house? DM us for a magical surprise sorting!
               </p>
               <div className="pt-4">
                 <Link
                   href="https://forms.gle/rx11y4TyDXzSzkoQ6"
                   target="_blank"
-                  className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-6 py-2 text-sm font-medium text-primary-foreground shadow hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
+                  className="inline-flex h-20 items-center justify-center rounded-[36px] bg-white text-black bg-primary px-6 py-2 text-2xl font-bold shadow hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
                 >
-                  House Sorting Survey
+                  HOUSE SORTING SURVEY
                 </Link>
               </div>
             </div>
-            <div className="relative aspect-video h-full w-full overflow-hidden rounded-lg md:aspect-square md:order-last">
+            <div className="relative aspect-video mx-auto h-full w-full max-w-md overflow-hidden rounded-lg md:aspect-square md:order-last">
               <Image src="/dress-code/dress-code-big-logo.png?height=600&width=600" alt="Dress Code" fill className="object-cover" />
             </div>
           </div>
 
           {/* Four images grid with descriptions */}
-          <div className="mt-12">
-            <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-8 md:mt-12">
+            <div className="grid grid-cols-4 gap-2 md:gap-4 lg:gap-8">
               {dressCodeExamples.map((example, index) => (
                 <div key={index} className="flex flex-col overflow-hidden rounded-lg">
-                  <div className="relative h-[500px] w-full">
-                    <Image
-                      src={example.image || "/placeholder.svg"}
-                      alt={example.title}
-                      fill
-                      className="object-cover"
-                    />
+                  <div className="relative w-full">
+                    <div className="aspect-[9/19]">
+                      <Image
+                        src={example.image || "/placeholder.svg"}
+                        alt={example.title}
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
                   </div>
-                  <div className="p-4 text-center">
-                    <h3 className="mb-2 text-xl font-semibold text-white">{example.title}</h3>
-                    <p className="text-white/80">{example.description}</p>
+                  <div className="p-1 text-center sm:p-2 md:p-4">
+                    <h3 className="text-xs font-semibold text-white sm:text-sm md:mb-2 md:text-xl">{example.title}</h3>
+                    <p className="text-xs text-white/80 sm:text-sm md:block">{example.description}</p>
                   </div>
                 </div>
               ))}
