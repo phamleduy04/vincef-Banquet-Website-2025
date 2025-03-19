@@ -7,24 +7,24 @@ export default function DressCodePage() {
       title: "Red & Yellow",
       description:
         "Courage and Determination",
-      image: "/dress-code/gryffidor.png?height=768&width=356",
+      image: "https://cdn.vincef.org/banquet-2025/dress-code/gryffidor.png?height=768&width=356",
     },
     {
       title: "Green & Silver",
       description:
         "Ambition and Cunning",
-      image: "/dress-code/slytherin.png?height=768&width=356",
+      image: "https://cdn.vincef.org/banquet-2025/dress-code/slytherin.png?height=768&width=356",
     },
     {
       title: "Yellow & Black",
       description: "Loyalty and Kindness",
-      image: "/dress-code/hufflepuff.png?height=768&width=356",
+      image: "https://cdn.vincef.org/banquet-2025/dress-code/hufflepuff.png?height=768&width=356",
     },
     {
       title: "Blue & Silver",
       description:
         "Wisdom and Creativity",
-      image: "/dress-code/ravenclaw.png?height=768&width=356",
+      image: "https://cdn.vincef.org/banquet-2025/dress-code/ravenclaw.png?height=768&width=356",
     },
   ]
 
@@ -32,7 +32,7 @@ export default function DressCodePage() {
     <div
       className="w-full"
       style={{
-        backgroundImage: "url('/dress-code/dress-code-background.png?height=1080&width=1920&text=DressCodeBackground')",
+        backgroundImage: "url('https://cdn.vincef.org/banquet-2025/dress-code/dress-code-background.png?height=1080&width=1920&text=DressCodeBackground')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundAttachment: "fixed",
@@ -73,7 +73,7 @@ export default function DressCodePage() {
               </div>
             </div>
             <div className="relative aspect-video mx-auto h-full w-full max-w-md overflow-hidden rounded-lg md:aspect-square md:order-last">
-              <Image src="/dress-code/dress-code-big-logo.png?height=600&width=600" alt="Dress Code" fill className="object-cover" />
+              <Image src="https://cdn.vincef.org/banquet-2025/dress-code/dress-code-big-logo.png?height=600&width=600" alt="Dress Code" fill className="object-cover" />
             </div>
           </div>
 
@@ -85,7 +85,7 @@ export default function DressCodePage() {
                   <div className="relative w-full">
                     <div className="aspect-[9/19]">
                       <Image
-                        src={example.image || "/placeholder.svg"}
+                        src={example.image || "https://cdn.vincef.org/banquet-2025/placeholder.svg"}
                         alt={example.title}
                         fill
                         className="object-cover"

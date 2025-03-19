@@ -6,25 +6,25 @@ export default function FormsPage() {
     {
       title: "GRADUATION FAREWELL",
       description: "Let us know if you graduated in Summer 2024, Fall 2024, or are about to graduate in Spring 2025!",
-      image: "/forms/graduation-farewell.png?height=300&width=300",
+      image: "https://cdn.vincef.org/banquet-2025/forms/graduation-farewell.png?height=300&width=300",
       url: "https://forms.gle/XGcU8ws9nwr385d47",
     },
     {
       title: "CONFESSION BOX",
       description: "Whether it's a heartfelt message to a dear friend, a note of appreciation, or a secret you've been meaning to share, let your words be a keepsake of this unforgettable night. 💌",
-      image: "/forms/confession-box.png?height=300&width=300",
+      image: "https://cdn.vincef.org/banquet-2025/forms/confession-box.png?height=300&width=300",
       url: "https://forms.gle/YVLU2iqgGBPL5s3Z9",
     },
     {
       title: "To be announced",
       description: "Stay tuned in to VINCEF's social media to get newest updates on Moonlit Feast!",
-      image: "/coming-soon-square.png?height=300&width=300",
+      image: "https://cdn.vincef.org/banquet-2025/coming-soon-square.png?height=300&width=300",
       url: "/",
     },
     {
       title: "To be announced",
       description: "Stay tuned in to VINCEF's social media to get newest updates on Moonlit Feast!",
-      image: "/coming-soon-square.png?height=300&width=300",
+      image: "https://cdn.vincef.org/banquet-2025/coming-soon-square.png?height=300&width=300",
       url: "/",
     },
   ]
@@ -33,7 +33,7 @@ export default function FormsPage() {
     <div
       className="min-h-screen w-full"
       style={{
-        backgroundImage: "url('/forms/forms-background.png?height=1080&width=1920&text=FormsBackground')",
+        backgroundImage: "url('https://cdn.vincef.org/banquet-2025/forms/forms-background.png?height=1080&width=1920&text=FormsBackground')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundAttachment: "fixed",
@@ -47,7 +47,7 @@ export default function FormsPage() {
               <div key={index} className="flex flex-col md:flex-row mx-auto w-full max-w-sm md:max-w-none md:flex overflow-hidden rounded-lg shadow-lg">
                 <div className="relative w-full md:w-2/5">
                   <Image
-                    src={form.image || "/placeholder.svg"}
+                    src={form.image || "https://cdn.vincef.org/banquet-2025/placeholder.svg"}
                     alt={form.title}
                     width={400}
                     height={400}

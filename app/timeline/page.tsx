@@ -26,7 +26,7 @@ export default function TimelinePage() {
     <div
       className="w-full"
       style={{
-        backgroundImage: "url('/timeline/timeline-background.png?height=1080&width=1920&text=TimelineBackground')",
+        backgroundImage: "url('https://cdn.vincef.org/banquet-2025/timeline/timeline-background.png?height=1080&width=1920&text=TimelineBackground')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundAttachment: "fixed",
@@ -37,7 +37,7 @@ export default function TimelinePage() {
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
             <div className="relative h-full w-full overflow-hidden rounded-lg md:sticky md:top-24 md:h-[calc(100vh-6rem)]">
               <Image
-                src="/timeline/timeline-moon.png?height=900&width=600"
+                src="https://cdn.vincef.org/banquet-2025/timeline/timeline-moon.png?height=900&width=600"
                 alt="Timeline"
                 className="h-full w-full object-contain"
                 width={600}
