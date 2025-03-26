@@ -7,7 +7,7 @@ export default function Home() {
     <div
       className="w-full pt-16"
       style={{
-        backgroundImage: "url('/landing-page/landing-page-background.png?height=1080&width=1920&text=LandingBackground')",
+        backgroundImage: "url('https://cdn.vincef.org/banquet-2025/landing-page/landing-page-background.png?height=1080&width=1920&text=LandingBackground')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundAttachment: "fixed",
@@ -20,7 +20,7 @@ export default function Home() {
       <div className="mx-auto mt-[-8px] w-[65%] px-4">
         <div className="relative w-full">
           <Image
-            src="/landing-page/landing-page-moonlit.png?height=600&width=1400"
+            src="https://cdn.vincef.org/banquet-2025/landing-page/landing-page-moonlit.png?height=600&width=1400"
             alt="First showcase image"
             width={1400}
             height={600}
@@ -34,7 +34,7 @@ export default function Home() {
       <div className="relative mx-auto mt-[-50px] w-[33%] px-4 z-10">
         <div className="relative w-full">
           <Image
-            src="/landing-page/landing-page-feast.png?height=400&width=400"
+            src="https://cdn.vincef.org/banquet-2025/landing-page/landing-page-feast.png?height=400&width=400"
             alt="Second showcase image"
             width={400}
             height={400}
@@ -48,7 +48,7 @@ export default function Home() {
         {/* Third image: left side */}
         <div className="relative w-[30%]">
           <Image
-            src="/landing-page/landing-page-time.png?height=300&width=300"
+            src="https://cdn.vincef.org/banquet-2025/landing-page/landing-page-time.png?height=300&width=300"
             alt="Third showcase image"
             width={300}
             height={300}
@@ -59,7 +59,7 @@ export default function Home() {
         {/* Fourth image: right side */}
         <div className="relative w-[30%]">
           <Image
-            src="/landing-page/landing-page-date.png?height=300&width=300"
+            src="https://cdn.vincef.org/banquet-2025/landing-page/landing-page-date.png?height=300&width=300"
             alt="Fourth showcase image"
             width={300}
             height={300}
@@ -72,7 +72,7 @@ export default function Home() {
       <div className="relative mx-auto mt-[-2vh] w-[35%] px-4 z-10">
         <div className="relative w-full">
           <Image
-            src="/landing-page/landing-page-location.png?height=400&width=600"
+            src="https://cdn.vincef.org/banquet-2025/landing-page/landing-page-location.png?height=400&width=600"
             alt="Fifth showcase image"
             width={600}
             height={400}
@@ -85,7 +85,7 @@ export default function Home() {
       <div className="relative mx-auto mt-[-2vh] w-[35%] px-4">
         <div className="relative w-full">
           <Image
-            src="/landing-page/landing-page-logo.png?height=400&width=600"
+            src="https://cdn.vincef.org/banquet-2025/landing-page/landing-page-logo.png?height=400&width=600"
             alt="Sixth showcase image"
             width={600}
             height={400}

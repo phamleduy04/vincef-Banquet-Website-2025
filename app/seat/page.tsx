@@ -4,8 +4,8 @@ export default function SeatPage() {
   return (
     <div
       className="w-full"
-      style={{
-        backgroundImage: "url('/seating/seating-background.png?height=1080&width=1920&text=SeatBackground')",
+      style={{  
+        backgroundImage: "url('https://cdn.vincef.org/banquet-2025/seating/seating-background.png?height=1080&width=1920&text=SeatBackground')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundAttachment: "fixed",
@@ -23,7 +23,7 @@ export default function SeatPage() {
             <div className="mx-auto w-full max-w-5xl">
               <div className="relative aspect-[16/9] w-full overflow-hidden rounded-lg bg-black/20 backdrop-blur-sm">
                 <Image
-                  src="/coming-soon-rectangle.png?height=600&width=1200"
+                  src="https://cdn.vincef.org/banquet-2025/coming-soon-rectangle.png?height=600&width=1200"
                   alt="Seating Chart"
                   fill
                   className="object-contain"

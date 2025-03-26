@@ -3,14 +3,14 @@
 import { useEffect } from "react"
 
 const backgrounds = [
-  "/landing-page/landing-page-background.png?height=1080&width=1920&text=LandingBackground",
-  "/intro/intro-background.png?height=1080&width=1920&text=IntroBackground",
-  "/seating/seating-background.png?height=1080&width=1920&text=SeatBackground",
-  "/forms/forms-background.png?height=1080&width=1920&text=FormsBackground",
-  "/dress-code/dress-code-background.png?height=1080&width=1920&text=DressCodeBackground",
-  "/timeline/timeline-background.png?height=1080&width=1920&text=TimelineBackground",
-  "/donation/donation-background.png?height=1080&width=1920&text=DonationBackground",
-  "/officers/officers-background.png?height=1080&width=1920&text=OfficersBackground",
+  "https://cdn.vincef.org/banquet-2025/landing-page/landing-page-background.png?height=1080&width=1920&text=LandingBackground",
+  "https://cdn.vincef.org/banquet-2025/intro/intro-background.png?height=1080&width=1920&text=IntroBackground",
+  "https://cdn.vincef.org/banquet-2025/seating/seating-background.png?height=1080&width=1920&text=SeatBackground",
+  "https://cdn.vincef.org/banquet-2025/forms/forms-background.png?height=1080&width=1920&text=FormsBackground",
+  "https://cdn.vincef.org/banquet-2025/dress-code/dress-code-background.png?height=1080&width=1920&text=DressCodeBackground",
+  "https://cdn.vincef.org/banquet-2025/timeline/timeline-background.png?height=1080&width=1920&text=TimelineBackground",
+  "https://cdn.vincef.org/banquet-2025/donation/donation-background.png?height=1080&width=1920&text=DonationBackground",
+  "https://cdn.vincef.org/banquet-2025/officers/officers-background.png?height=1080&width=1920&text=OfficersBackground",
 ]
 
 export default function BackgroundPreloader() {

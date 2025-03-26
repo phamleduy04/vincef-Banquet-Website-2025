@@ -5,42 +5,42 @@ export default function OfficersPage() {
     {
       name: "Nam Duong",
       position: "President",
-      image: "/officers/pre.png?height=400&width=300",
+      image: "https://cdn.vincef.org/banquet-2025/officers/pre.png?height=400&width=300",
     },
     {
       name: "Quang Ngo",
       position: "Vice President",
-      image: "/officers/vice.png?height=400&width=300",
+      image: "https://cdn.vincef.org/banquet-2025/officers/vice.png?height=400&width=300",
     },
     {
       name: "Ngoc Pham",
       position: "Secretary",
-      image: "/officers/secret.png?height=400&width=300",
+      image: "https://cdn.vincef.org/banquet-2025/officers/secret.png?height=400&width=300",
     },
     {
       name: "Mimi Lam",
       position: "Marketing Chair",
-      image: "/officers/market.png?height=400&width=300",
+      image: "https://cdn.vincef.org/banquet-2025/officers/market.png?height=400&width=300",
     },
     {
       name: "Thai Tong",
       position: "Cultural Chair",
-      image: "/officers/culture.png?height=400&width=300",
+      image: "https://cdn.vincef.org/banquet-2025/officers/culture.png?height=400&width=300",
     },
     {
       name: "Duc Phan",
       position: "Photographer",
-      image: "/officers/photo.png?height=400&width=300",
+      image: "https://cdn.vincef.org/banquet-2025/officers/photo.png?height=400&width=300",
     },
     {
       name: "Ngoc Ta",
       position: "Treasurer",
-      image: "/officers/treasure.png?height=400&width=300",
+      image: "https://cdn.vincef.org/banquet-2025/officers/treasure.png?height=400&width=300",
     },
     {
       name: "Cody Do",
       position: "Social Chair",
-      image: "/officers/social.png?height=400&width=300",
+      image: "https://cdn.vincef.org/banquet-2025/officers/social.png?height=400&width=300",
     },
   ]
 
@@ -48,7 +48,7 @@ export default function OfficersPage() {
     <div
       className="min-h-screen w-full"
       style={{
-        backgroundImage: "url('/officers/officers-background.png?height=1080&width=1920&text=OfficersBackground')",
+        backgroundImage: "url('https://cdn.vincef.org/banquet-2025/officers/officers-background.png?height=1080&width=1920&text=OfficersBackground')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundAttachment: "fixed",
@@ -61,7 +61,7 @@ export default function OfficersPage() {
             {officers.map((officer, index) => (
               <div key={index} className="flex flex-col overflow-hidden rounded-lg bg-black/30 shadow-lg backdrop-blur-sm">
                 <div className="relative aspect-[3/4] w-full">
-                  <Image src={officer.image || "/placeholder.svg"} alt={officer.name} fill className="object-cover" />
+                  <Image src={officer.image || "https://cdn.vincef.org/banquet-2025/placeholder.svg"} alt={officer.name} fill className="object-cover" />
                 </div>
                 <div className="flex flex-col p-4">
                   <h2 className="text-xl font-semibold text-white">{officer.name}</h2>
