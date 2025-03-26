@@ -16,10 +16,10 @@ export default function FormsPage() {
       url: "https://forms.gle/YVLU2iqgGBPL5s3Z9",
     },
     {
-      title: "To be announced",
-      description: "Stay tuned in to VINCEF's social media to get newest updates on Moonlit Feast!",
-      image: "https://cdn.vincef.org/banquet-2025/coming-soon-square.png?height=300&width=300",
-      url: "/",
+      title: "VINCEF'S CHOICE AWARD",
+      description: "Help VINCEF select awardees by voting for your favorite person(s) over the last year!",
+      image: "https://cdn.vincef.org/banquet-2025/choice-award.jpg?height=300&width=300",
+      url: "https://forms.gle/z49BRTtDfnGvNHTo7",
     },
     {
       title: "To be announced",
